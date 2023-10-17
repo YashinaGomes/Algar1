@@ -10,7 +10,7 @@ const Main = () => {
     <div className="containerMain">
    <List />
    <About />
-   <Chat /> 
+   
     </div>
   )
 }
