@@ -1,0 +1,86 @@
+.container {
+  width: 1200px;
+  height: 1700px;
+  border-radius: 40px;
+  border: 0px solid #000;
+  background: rgba(135, 135, 135, 0.13);
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.25);
+  margin: 5rem auto;
+  
+}
+
+
+.content {
+  width: 857px;
+  height: 1609px;
+  border-radius: 38px;
+  background: #FFF;
+  margin: 3rem auto;
+  
+
+}
+
+.contentLogo {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.contentLogo img {
+  width: 124.269px;
+  height: 47.84px;
+}
+
+.text {
+   margin: 1rem auto;
+  width: 800px;
+}
+
+.text p {
+  color: #000;
+  font-family: Inria Sans;
+  font-size: 22px;
+  font-weight: 300;
+
+}
+
+.span {
+  color: #0068A6;
+  font-weight: 700;
+}
+
+.dev {
+  width: 801px;
+  height: 395px;
+  border-radius: 40px;
+  border: 0px solid #000;
+  background: rgba(135, 135, 135, 0.13);
+  margin: 4rem auto;
+  padding: 1rem;
+
+
+}
+
+
+
+.devPerfil {
+  display: flex;
+  padding-left: 1rem;
+
+}
+
+.devContent {
+  padding-left: 2rem;
+}
+
+.agilidade {
+  width: 742px;
+  height: 200px;
+  margin: 1rem auto;
+}
+
+.agilidade p {
+
+  font-size: 13px;
+
+}
