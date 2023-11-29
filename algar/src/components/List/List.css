@@ -31,5 +31,18 @@
   border-radius: 100%;
   margin-right: 8px;
 
+}
+  /* Adicionando uma media query para ajustar estilos em telas menores */
+@media screen and (max-width: 768px) {
+  .containerList {
+    margin: 2rem auto;
+  }
 
+  .item {
+    padding-left: 1rem;
+  }
+
+  #image {
+    width: 20%; /* Ajustando o tamanho da imagem para telas menores */
+  }
 }

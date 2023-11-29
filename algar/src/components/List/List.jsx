@@ -6,7 +6,7 @@ const List = () => {
   const lista =[
   {
     nome:"Home",
-    imagem:"/assets2/home.png",
+    imagem:"/assets2/home.png",      
   },
   {
     nome:"Members",

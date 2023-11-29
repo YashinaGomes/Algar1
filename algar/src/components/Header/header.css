@@ -4,30 +4,61 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  
 }
 
 .navbar {
-  width: 1340px;
-  height: 154px;
+  max-width: 96%;
+  height: auto;
   border-radius: 40px;
   border: 0px solid #000;
   background: rgba(135, 135, 135, 0.13);
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.25);
-  margin: 2rem auto;
+  margin: 4rem auto;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .logo {
-  width: 215.185px;
-  height: 82.84px;
+  width: 100%;
+  height: auto;
+  max-width: 215.185px;
+  max-height: 82.84px;
 }
 
 #navbarNav {
   justify-content: flex-end;
   margin: 1rem auto;
+  color: rgba(0, 0, 0, 0.58);
+  font-family: Inria Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
 }
 
 #navbarNav img {
+  width: 100%;
+  height: auto;
+  max-width: 60px;
+  max-height: 56px;
+}
 
-  width: 83px;
-  height: 79px;
+/* Adicionando uma media query para ajustar estilos em telas menores */
+@media screen and (max-width: 768px) {
+  .navbar {
+    margin: 2rem auto;
+  }
+
+  #navbarNav {
+    justify-content: space-between;
+    padding: 1rem;
+    border: none;
+  }
+
+  #navbarNav img {
+    max-width: 40px;
+    max-height: 36px;
+  }
 }
